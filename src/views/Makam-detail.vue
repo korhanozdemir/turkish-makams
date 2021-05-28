@@ -1,13 +1,16 @@
 <template>
-$END$
+  <div>
+    <detailpage />
+  </div>
 </template>
-
 <script>
+// @ is an alias to /src
+import detailpage from "@/components/detailpage.vue";
+
 export default {
-name: "makam-detail"
-}
+  name: "makamdetail",
+  components: {
+    detailpage,
+  },
+};
 </script>
-
-<style scoped>
-
-</style>
