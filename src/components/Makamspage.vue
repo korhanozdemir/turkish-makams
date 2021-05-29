@@ -89,6 +89,7 @@ export default {
     background-size: 40px 40px;
     background-repeat: no-repeat;
     background-position: 10px 1rem;
+    width: 50%;
   }
 
   button {

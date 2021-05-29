@@ -19,6 +19,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import router from "@/router";
 
@@ -40,6 +41,7 @@ export default {
   },
 };
 </script>
+
 <style lang="scss">
 .container {
   width: 80%;
@@ -58,6 +60,9 @@ export default {
 .items {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
   gap: 1em;
   .item {
     flex: 1;
