@@ -53,7 +53,7 @@ export default {
   border-radius: 10px;
   background-color: $secondary-color;
   margin-inline: auto;
-  width: calc(max(40vw, 355px));
+  width: calc(min(100%, 600px));
   img {
     width: 100%;
     border-radius: 10px;

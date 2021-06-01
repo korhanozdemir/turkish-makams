@@ -53,6 +53,9 @@ export default {
   align-items: start;
   justify-content: space-between;
   margin-bottom: 7em;
+  @media (max-width: 900px) {
+    margin-bottom: 4em;
+  }
   .logo {
     width: 10em;
   }
@@ -89,5 +92,8 @@ export default {
 }
 .categories {
   margin-top: 10em;
+  @media (max-width: 900px) {
+    margin-top: 5em;
+  }
 }
 </style>
