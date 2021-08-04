@@ -1,4 +1,6 @@
 # turkish-makams
+A responsive PWA written with Vue.js for displaying Turkish makams. It's a downloadable web application that also runs offline and works on every device.
+
 
 ## Project setup
 ```
@@ -20,5 +22,10 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Built With
+Vue.js
+Vuex
+Vue router
+Webpack
+Sass
+Service workers
