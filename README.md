@@ -23,9 +23,9 @@ npm run lint
 ```
 
 ### Built With
-Vue.js
-Vuex
-Vue router
-Webpack
-Sass
-Service workers
+- Vue.js
+- Vuex
+- Vue router
+- Webpack
+- Sass
+- Service workers
